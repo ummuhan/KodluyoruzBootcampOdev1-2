@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: content-box;
+        }
+
+        .container {
+            font-family: 'Noto Sans KR', sans-serif;
+            color: rgb(103, 103, 103);
+
+            background: url("images/background_image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 350px;
+            height: 600px;
+            position: absolute;
+        }
+
+
+        input {
+
+            display: block;
+            padding: 5px;
+            padding-left: 20px;
+            border-radius: 30px;
+            padding-top: 15px;
+            margin-top: 10px;
+            width: 250px;
+            height: 25px;
+            text-align: start;
+            border: none;
+            background-color: rgb(238, 235, 235);
+
+        }
+
+        .button {
+            text-align: center;
+            background-image: linear-gradient(to right, #e872e3, #c41fbd);
+            color: white;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+
+
+        }
+
+
+        img {
+            width: 40px;
+        }
+
+        h1 {
+            padding-top: 160px;
+            font-weight: 700;
+        }
+
+        p a {
+            color: rgb(84, 17, 199);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .container p {
+            color: grey;
+            font-weight: 300;
+        }
+
+        input::placeholder {
+            color: rgb(170, 170, 170);
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 500;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center" class="container">
+        <h1>REGISTER</h1>
+        <div>
+            <img src="images/icon1.png" alt="facebook">
+            <img src="images/icon2.png" alt="facebook">
+            <img src="images/icon3.png" alt="facebook">
+
+        </div>
+        <p>or use your email address:</p>
+        <form action="" class="forms">
+            <input type="text" placeholder="First name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm password">
+            <input class="button" type="submit" value="CREATE ACCOUNT">
+        </form>
+        <p>Already have an account? <a href="">Sign In</a></p>
+    </div>
+
+</body>
+
+</html>
