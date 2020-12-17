@@ -1,0 +1,38 @@
+* {
+    box-sizing: content-box;
+
+
+}
+.blog_cards{
+font-family: 'Changa', sans-serif;
+margin: auto;
+padding: 10px;
+}
+.blog_cards h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.blog h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+   
+
+}
+div .blog{
+    box-shadow: 5px 5px 10px 8px #888888;
+
+display: inline-block; 
+width: 300px;
+margin-left: 30px;
+}
+   div .blog h3,p,h4{
+   padding-left: 20px;
+   padding-right: 20px;
+    text-align: left;
+    color: gray;
+   }
+   div .blog h4{
+       padding-left:40px;
+       font-size: 20px
+   }
