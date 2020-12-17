@@ -1,0 +1,82 @@
+  
+        * {
+            box-sizing: content-box;
+
+
+        }
+
+        .container {
+            font-family: 'Noto Sans KR', sans-serif;
+            color: rgb(103, 103, 103);
+            margin: auto;
+            padding: 10px;
+            background: url("images/background_image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 350px;
+            height: 680px;
+
+            box-shadow: 10px 10px 40px #c4c4c4;
+
+        }
+
+        input:focus {
+            outline: 0;
+        }
+
+
+        input {
+
+            display: block;
+            padding: 5px;
+            padding-left: 20px;
+            border-radius: 30px;
+            padding-top: 15px;
+            margin-top: 10px;
+            width: 250px;
+            height: 25px;
+            text-align: start;
+            border: none;
+            background-color: rgb(238, 235, 235);
+
+        }
+
+        .button {
+            text-align: center;
+            background-image: linear-gradient(to right, #d272e8, #9e1fc4);
+            color: white;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+
+        }
+
+
+        img {
+            width: 40px;
+        }
+
+        h1 {
+            padding-top: 160px;
+            font-weight: 700;
+        }
+
+        p a {
+            color: rgb(106, 55, 194);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .container p {
+            color: grey;
+            font-weight: 300;
+        }
+
+        input::placeholder {
+            color: rgb(170, 170, 170);
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+
+        }
