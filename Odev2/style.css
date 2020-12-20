@@ -1,0 +1,54 @@
+:root{
+    --btn-color:#4F56F1;
+    --color:black;
+    --font-family:"Roboto";
+    --b-font-family:'Ramaraja', serif;
+}
+
+.button{
+    font-family: var(--font-family);   
+    font-weight: 400;
+    background-color:var(--btn-color) ;
+    border-radius: 6px;
+    color: white;  
+    font-weight: 700;  
+    font-size: 16px;
+    text-align: center;
+}
+.main{
+    display: inline;
+}
+.main__button{
+    Width :152px;
+    Height: 63,82px;
+}
+
+h1{
+    color: var(--color);
+    font-size:  72px;
+}
+
+.header__signIn{
+    border: none;
+  background-color: white;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.section{
+    color: var(--color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header__signUp{
+ 
+   
+    width: 120px;
+    height: 59.65px;
+    border: 1px solid black;
+    box-shadow:2px 3px 3px rgb(209, 203, 203);
+}
+
