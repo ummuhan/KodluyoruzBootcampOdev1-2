@@ -1,57 +1,106 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
+  padding: 30px 80px;
+  width: 1600px;
+  height: 920px;
+  margin: auto;
   position: relative;
-  margin-top: 37px;
-  margin-left: 67;
-  margin-right: 80;
   font-size: 16px;
   font-weight: 400;
   font-family: "Roboto", serif;
+  text-align: center;
 }
 
 .container .button {
+  cursor: pointer;
   background-color: #4F56F1;
   border-radius: 6px;
   color: white;
   font-weight: 700;
   font-size: 16px;
-  text-align: center;
 }
 
 .container .main {
-  display: inline;
+  top: 115px;
+  position: relative;
 }
 
-.container .main .paragraf h1 {
+.container .main__image {
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.container .main__paragraf {
+  float: left;
+  position: absolute;
+  left: 74px;
+  top: 100px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.container .main__paragraf h1 {
   color: #1B0A42;
   font-size: 72px;
   font-family: "Ramaraja", serif;
 }
 
-.container .main .paragraf p {
+.container .main__paragraf p {
   color: #9A9A9A;
   font-size: 20px;
 }
 
-.container .main .paragraf .main__button {
+.container .main__paragraf .main__button {
+  margin-top: 50px;
   width: 152px;
   height: 63.82px;
   border: none;
 }
 
-.container .header {
-  display: block;
-}
-
 .container .header img {
+  margin-right: 97.5px;
   float: left;
 }
 
+.container .header__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container .header__menu li {
+  float: left;
+  margin: 5px;
+}
+
+.container .header__menu li a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #1B0A42;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container .header__button {
+  float: right;
+}
+
 .container .header__signIn {
+  margin-right: 40.3px;
   border: none;
   background-color: white;
   font-weight: 400;
   font-size: 16px;
-  text-align: center;
   color: #1B0A42;
 }
 
@@ -64,8 +113,9 @@
 }
 
 .container .header span {
+  margin-right: 20px;
   color: #1B0A42;
-  font-family: var(--font-family);
+  font-family: "Roboto", serif;
   font-weight: 400;
   font-size: 16px;
   text-align: center;

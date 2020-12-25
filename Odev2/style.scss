@@ -5,45 +5,73 @@ $font-family--h1:'Ramaraja', serif;
 $c_p:#9A9A9A;
 $font-weight--genel:400;
 $font-size--genel:16px;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 
 .container{
+    padding: 30px 80px;
+    width: 1600px;
+    height: 920px;
+     margin:auto;
     position: relative;
-    margin-top: 37px;
-    margin-left: 67;
-    margin-right: 80;
+   
   
     font-size: $font-size--genel;
     font-weight: $font-weight--genel;
     font-family: $font-family--genel;   
-    //text-align: center;
+    text-align: center;
     .button{
    
-   
+   cursor: pointer;
     background-color:$c_button ;
     border-radius: 6px;
     color:white;  
     font-weight: 700;  
     font-size: 16px;
-    text-align: center;
+
 
     }
     .main{
+        top: 115px;
+        position: relative;
+        
+    
+        &__image{
+           
+            display: inline;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: auto
+            
+        }
 
-        display: inline;
+        &__paragraf{
 
-        .paragraf{
+      float: left;
+         position: absolute;
+         left: 74px;
+         top: 100px;
+         letter-spacing: 0.04em;
+         text-align: left;
             h1{
+               
                 color: $text-color;
+                
                 font-size:  72px;
                 font-family: $font-family--h1;
             }
             p{
+              
                  color: $c_p;
                  font-size: 20px;
             }
             .main__button{
-              
+             margin-top: 50px;
                 width: 152px;
                 height: 63.82px;
                border: none;
@@ -51,16 +79,42 @@ $font-size--genel:16px;
         }
     }
     .header{
-        display: block;
+     
+       
         img{
+           margin-right: 97.5px;
             float: left;
         }
+        &__menu{
+            list-style: none;
+            margin: 0;
+            padding:0;
+            li{
+                float:left;
+              margin:5px;
+           a{
+          text-decoration: none;
+            margin-right: 40px;
+              color:$text-color;
+               font-family: $font-family--genel;
+             font-weight: 400;
+                font-size: 16px;
+             
+                   }
+            }
+           
+        }
+        &__button{
+            
+            float: right;
+        }
         &__signIn{
+            margin-right: 40.3px;
             border: none;
           background-color: white;
           font-weight: 400  ;
          font-size: 16px;
-         text-align: center;
+    
         color: $text-color;
         }
          &__signUp{
@@ -71,8 +125,9 @@ $font-size--genel:16px;
          }
          
          span{
+            margin-right: 20px;
             color:$text-color;
-            font-family: var(--font-family);
+            font-family: $font-family--genel;
             font-weight: 400;
             font-size: 16px;
             text-align: center;
