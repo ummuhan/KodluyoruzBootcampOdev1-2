@@ -1,54 +1,73 @@
-:root{
-    --btn-color:#4F56F1;
-    --color:black;
-    --font-family:"Roboto";
-    --b-font-family:'Ramaraja', serif;
+.container {
+  position: relative;
+  margin-top: 37px;
+  margin-left: 67;
+  margin-right: 80;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", serif;
 }
 
-.button{
-    font-family: var(--font-family);   
-    font-weight: 400;
-    background-color:var(--btn-color) ;
-    border-radius: 6px;
-    color: white;  
-    font-weight: 700;  
-    font-size: 16px;
-    text-align: center;
-}
-.main{
-    display: inline;
-}
-.main__button{
-    Width :152px;
-    Height: 63,82px;
-}
-
-h1{
-    color: var(--color);
-    font-size:  72px;
-}
-
-.header__signIn{
-    border: none;
-  background-color: white;
+.container .button {
+  background-color: #4F56F1;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
   font-size: 16px;
   text-align: center;
-  color: black;
-}
-.section{
-    color: var(--color);
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
 }
 
-.header__signUp{
- 
-   
-    width: 120px;
-    height: 59.65px;
-    border: 1px solid black;
-    box-shadow:2px 3px 3px rgb(209, 203, 203);
+.container .main {
+  display: inline;
 }
 
+.container .main .paragraf h1 {
+  color: #1B0A42;
+  font-size: 72px;
+  font-family: "Ramaraja", serif;
+}
+
+.container .main .paragraf p {
+  color: #9A9A9A;
+  font-size: 20px;
+}
+
+.container .main .paragraf .main__button {
+  width: 152px;
+  height: 63.82px;
+  border: none;
+}
+
+.container .header {
+  display: block;
+}
+
+.container .header img {
+  float: left;
+}
+
+.container .header__signIn {
+  border: none;
+  background-color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #1B0A42;
+}
+
+.container .header__signUp {
+  width: 120px;
+  height: 59.65px;
+  border: 1px solid black;
+  -webkit-box-shadow: 2px 3px 3px #d1cbcb;
+          box-shadow: 2px 3px 3px #d1cbcb;
+}
+
+.container .header span {
+  color: #1B0A42;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

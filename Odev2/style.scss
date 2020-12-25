@@ -1,0 +1,83 @@
+$c_button:#4F56F1;
+$font-family--genel:'Roboto',serif;
+$text-color:#1B0A42;
+$font-family--h1:'Ramaraja', serif;
+$c_p:#9A9A9A;
+$font-weight--genel:400;
+$font-size--genel:16px;
+
+
+.container{
+    position: relative;
+    margin-top: 37px;
+    margin-left: 67;
+    margin-right: 80;
+  
+    font-size: $font-size--genel;
+    font-weight: $font-weight--genel;
+    font-family: $font-family--genel;   
+    //text-align: center;
+    .button{
+   
+   
+    background-color:$c_button ;
+    border-radius: 6px;
+    color:white;  
+    font-weight: 700;  
+    font-size: 16px;
+    text-align: center;
+
+    }
+    .main{
+
+        display: inline;
+
+        .paragraf{
+            h1{
+                color: $text-color;
+                font-size:  72px;
+                font-family: $font-family--h1;
+            }
+            p{
+                 color: $c_p;
+                 font-size: 20px;
+            }
+            .main__button{
+              
+                width: 152px;
+                height: 63.82px;
+               border: none;
+            }
+        }
+    }
+    .header{
+        display: block;
+        img{
+            float: left;
+        }
+        &__signIn{
+            border: none;
+          background-color: white;
+          font-weight: 400  ;
+         font-size: 16px;
+         text-align: center;
+        color: $text-color;
+        }
+         &__signUp{
+            width: 120px;
+            height: 59.65px;
+            border: 1px solid black;
+            box-shadow:2px 3px 3px rgb(209, 203, 203);
+         }
+         
+         span{
+            color:$text-color;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+         }
+    }
+}
+
+
