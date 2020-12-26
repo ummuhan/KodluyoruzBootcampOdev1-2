@@ -26,6 +26,7 @@ Kodluyoruz front-end bootcamp boyunca yapılan ödevlere ait repository.
 <p >
   <img src="https://github.com/ummuhan/KodluyoruzBootcamp/blob/main/ekran_goruntuleri/odev3.png" width="400" alt="accessibility text">
   <img src="https://github.com/ummuhan/KodluyoruzBootcamp/blob/main/ekran_goruntuleri/odev3_design.png" width="400" alt="accessibility text">
+  <a href=" https://codepen.io/ummuhan-the-sans/pen/eYdeyKB" > Codepen</a>
 
 </p>
 
